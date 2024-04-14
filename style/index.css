@@ -317,9 +317,15 @@ li > a {
   font-weight: 300;
 }
 
-.register-now-button button{
+.register-now-button button {
   color: #ffffff;
   border: 1px solid #edf6fd;
   font-size: 17px;
   font-weight: 600;
+}
+
+footer {
+  margin: 0 65px;
+  display: flex;
+  justify-content: space-between;
 }
