@@ -42,6 +42,7 @@ li > a {
   font-weight: 500;
 }
 
+.register-now-button button,
 .pricing-amount button,
 .hero-button,
 .nav-item > button {
@@ -273,4 +274,52 @@ li > a {
   box-sizing: border-box;
   flex: 0 1 calc(48% - 20px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item-details {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.testimonial-item-details .item-img i {
+  font-size: 60px;
+  color: #9ca2b2;
+}
+
+/* REGISTRATION-SECTION */
+.register-now {
+  background-image: linear-gradient(#0db8ec 60%, #045ada 100%);
+  margin-bottom: 50px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register-now-message {
+  margin-left: 65px;
+}
+
+.register-now-message h1 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.register-now-button {
+  margin-right: 65px;
+}
+
+.register-now-message p {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.register-now-button button{
+  color: #ffffff;
+  border: 1px solid #edf6fd;
+  font-size: 17px;
+  font-weight: 600;
 }
