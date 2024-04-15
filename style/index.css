@@ -324,6 +324,10 @@ li > a {
   font-weight: 600;
 }
 
+.register-now-button button:hover {
+  background: linear-gradient(45deg, #0db8ec, #045ada);
+}
+
 footer {
   margin: 0 65px;
   display: flex;
