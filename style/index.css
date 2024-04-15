@@ -7,8 +7,83 @@
   color: #000000;
 }
 
+body {
+  margin: 40px 35px 50px 35px;
+}
+
+/* MEDIA-QUERY */
+/* MOBILE-VIEW */
+@media screen and (max-width: 425px) {
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .main-nav .logo img {
+    width: 106px;
+  }
+  .main-nav .nav-items {
+    display: none;
+  }
+
+  .main-nav .menu-icon i {
+    font-size: 33px;
+  }
+}
+
+/* TABLET-VIEW */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .main-nav .logo img {
+    width: 106px;
+  }
+  .main-nav .nav-items {
+    display: none;
+  }
+
+  .main-nav .menu-icon i {
+    font-size: 33px;
+  }
+}
+
+/* SMALL-SCREEN-SIZE-LAPTOP-VIEW */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main-nav {
+    display: flex;
+  }
+  .main-nav .menu-icon {
+    display: none;
+  }
+
+  .nav-items .nav-item {
+    text-decoration: none;
+  }
+}
+
+/* LARGE-SCREEN-SIZE-LAPTOP-VIEW */
+@media screen and (min-width: 1441px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/* MONITOR-VIEW */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    background-color: yellow;
+  }
+}
+
 /* NAVIGATION */
-.main-nav {
+/* .main-nav {
   margin: 45px 65px 0 65px;
   display: flex;
   flex-wrap: wrap;
@@ -61,10 +136,10 @@ li > a {
   color: #ffffff;
   border: 1px solid #ffffff;
   transition: background-color 0.3s ease, color 0.3s ease;
-}
+} */
 
 /* HERO-SECTION */
-.hero-section {
+/* .hero-section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -103,9 +178,10 @@ li > a {
 .hero-button:hover {
   background-color: #ffffff;
   color: #2b94f1;
-}
+} */
 
 /* SERVICES */
+/* 
 .service-provide {
   display: flex;
   flex-direction: column;
@@ -152,10 +228,10 @@ li > a {
 .service {
   flex: 0 0 33.3333%;
   margin-bottom: 30px;
-}
+} */
 
 /* PRICING */
-.pricing-table {
+/* .pricing-table {
   margin: 80px 0 65px 0;
   background-image: linear-gradient(#09c3f9 60%, #0461ea 100%);
   padding: 40px 0 50px 0;
@@ -239,10 +315,10 @@ li > a {
 
 .pricing-amount button {
   padding: 11px 30px;
-}
+} */
 
 /* TESTIMONIAL-SECTION */
-.testimonial {
+/* .testimonial {
   background-color: #fdfeff;
   margin: 0 65px;
   padding: 55px 0 55px 0;
@@ -286,10 +362,10 @@ li > a {
 .testimonial-item-details .item-img i {
   font-size: 60px;
   color: #9ca2b2;
-}
+} */
 
 /* REGISTRATION-SECTION */
-.register-now {
+/* .register-now {
   background-image: linear-gradient(#0db8ec 60%, #045ada 100%);
   margin-bottom: 50px;
   padding: 70px 0;
@@ -326,10 +402,10 @@ li > a {
 
 .register-now-button button:hover {
   background: linear-gradient(45deg, #0db8ec, #045ada);
-}
+} */
 
 /* FOOTER-SECTION */
-footer {
+/* footer {
   margin: 100px 40px;
   display: flex;
   justify-content: space-between;
@@ -352,4 +428,4 @@ footer img {
   flex-direction: row;
   justify-content: space-between;
   font-size: 23px;
-}
+} */
