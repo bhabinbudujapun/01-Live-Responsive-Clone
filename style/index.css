@@ -328,8 +328,28 @@ li > a {
   background: linear-gradient(45deg, #0db8ec, #045ada);
 }
 
+/* FOOTER-SECTION */
 footer {
-  margin: 0 65px;
+  margin: 100px 40px;
   display: flex;
   justify-content: space-between;
+}
+
+footer img {
+  width: 100px;
+}
+
+.footer-item ul {
+  list-style-type: none;
+}
+
+.footer-item li {
+  margin: 15px 0;
+}
+
+.footer-item:last-child ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 23px;
 }
