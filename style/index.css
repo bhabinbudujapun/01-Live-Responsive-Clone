@@ -237,30 +237,36 @@ body {
     font-size: 25px;
   }
 
-  .footer-item img,
-  .main-nav .logo img {
-    width: 106px;
+  footer ul li {
+    list-style: none;
   }
+}
 
+/* NAVIGATION (Mobile + Tablet + Till 940px) for ALL */
+@media screen and (max-width: 940px) {
   .main-nav .nav-items {
     display: none;
+  }
+
+  .main-nav .logo img,
+  .footer-item img {
+    width: 106px;
   }
 
   .main-nav .menu-icon i {
     font-size: 33px;
   }
 
-  footer ul li {
-    list-style: none;
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
-/* LABPOT+MONITOR */
-@media screen and (min-width: 769px) {
-  .main-nav {
-    display: flex;
-  }
-  .main-nav .menu-icon {
+/* NAVIGATION (Above 941px + Laptop + Monitor) */
+@media screen and (min-width: 941px) {
+  .main-nav .menu-icon i {
     display: none;
   }
 
@@ -271,7 +277,7 @@ body {
     align-items: center;
   }
 
-  .logo > img {
+  .logo>img {
     width: 100px;
   }
 
@@ -286,21 +292,25 @@ body {
     margin-right: 40px;
   }
 
-  li > a:hover,
+  li>a:hover,
   .nav-items .active a {
     color: #000000;
   }
 
-  li > a {
+  li>a {
     text-decoration: none;
     color: #8a8a8a;
     font-weight: 500;
   }
+}
+
+/* LABPOT+MONITOR */
+@media screen and (min-width: 769px) {
 
   .register-now-button button,
   .pricing-amount button,
   .hero-button,
-  .nav-item > button {
+  .nav-item>button {
     cursor: pointer;
     padding: 12px 20px;
     background-color: transparent;
@@ -311,7 +321,7 @@ body {
   }
 
   .pricing-amount button:hover,
-  .nav-item > button:hover {
+  .nav-item>button:hover {
     background-color: #2b94f1;
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -326,6 +336,7 @@ body {
 
 /* MOBILE-VIEW */
 @media screen and (max-width: 425px) {
+
   .register-now-button button,
   .hero-button {
     padding: 8px 12px;
@@ -340,6 +351,7 @@ body {
 
 /* TABLET-VIEW */
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
   .register-now-button button,
   .hero-button {
     padding: 10px 14px;
@@ -409,19 +421,20 @@ body {
 
 /* SMALL-SCREEN-SIZE-LAPTOP-VIEW */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-
-/* LARGE-SCREEN-SIZE-LAPTOP-VIEW */
-@media screen and (min-width: 1441px) {
-  body {
-    background-color: pink;
-  }
+  
 }
 
 /* MONITOR-VIEW */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   body {
     background-color: yellow;
+  }
+}
+
+/* LARGE-SCREEN-SIZE-LAPTOP-VIEW */
+@media screen and (min-width: 1441px) {
+  body {
+    background-color: pink;
   }
 }
 
